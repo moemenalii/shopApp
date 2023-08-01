@@ -2,7 +2,6 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:shop_app/HomeLayout/homeLayout.dart';
-import 'package:shop_app/Login_Screen/Login_Cubit/cubit.dart';
 import 'package:shop_app/Login_Screen/Login_Screen.dart';
 import 'package:shop_app/Network/Local/Cache_helper.dart';
 import 'package:shop_app/Network/Remote/dioHelper.dart';
