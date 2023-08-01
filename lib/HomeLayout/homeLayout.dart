@@ -1,9 +1,5 @@
-import 'package:curved_labeled_navigation_bar/curved_navigation_bar.dart';
-import 'package:curved_labeled_navigation_bar/curved_navigation_bar_item.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:shop_app/Login_Screen/Login_Screen.dart';
-import 'package:shop_app/Network/Local/Cache_helper.dart';
 import 'package:shop_app/SearchScreen/SearchScreen.dart';
 import 'package:shop_app/cubit/Cubit.dart';
 import 'package:shop_app/cubit/States.dart';
