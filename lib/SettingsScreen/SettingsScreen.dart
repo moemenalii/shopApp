@@ -12,7 +12,7 @@ class SettingScreen extends StatelessWidget {
     return BlocConsumer<ShopCubit,ShopStates>(
       listener:(context,state){} ,
       builder: (context,state)=>Column(children: [
-        defultTextForm(controller:nameController, label: 'Name', prefixIcon: Icon(Icons.person), keyboardType: TextInputType.text),
+        defultTextForm(controller:nameController, label: 'Namee', prefixIcon: Icon(Icons.person), keyboardType: TextInputType.text),
         SizedBox(height: 10,),
         defultTextForm(controller:EmailController, label: 'E_mail Address', prefixIcon: Icon(Icons.mail_outline_outlined), keyboardType: TextInputType.emailAddress),
         SizedBox(height: 10,),
